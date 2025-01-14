@@ -1,0 +1,16 @@
+{
+    "social": [
+        {
+            "network" : "linkedin",
+            "href": "https://www.linkedin.com/in/stefanjbloom/"
+        },
+        {
+            "network" : "github",
+            "href": "https://github.com/stefanjbloom"
+        },
+        {
+            "network" : "email",
+            "href": "mailto:stefanjbloom88@gmail.com"
+        }
+    ]
+}
