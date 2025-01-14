@@ -1,9 +1,9 @@
-// import Navbar from  './NavBar';
+import Navbar from  './NavBar';
 import endpoints from '../endpoints/endpoints';
-import React, { useState, useEffect, useRef} from 'react';
+import { useState, useEffect, useRef} from 'react';
 import Typed from 'typed.js';
 
-function Home () {
+function Home() {
 
   const [data, setData] = useState<{ name: String; roles: string[] } | null>(null)
   const typedElement = useRef<HTMLSpanElement>(null)
@@ -37,7 +37,7 @@ function Home () {
 
   return (
     <div className='min-h-screen bg-gray-100'>
-      {/* <Navbar /> */}
+      <Navbar />
       <div className='flex flex-col items-center justify-center h-screen w-screen text-center'>
         {data && (
           <>
