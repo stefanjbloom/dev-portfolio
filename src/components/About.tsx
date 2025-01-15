@@ -20,15 +20,15 @@ function About() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-100 via-white to-gray-200">
+    <div className="min-h-screen min-w-screen bg-gradient-to-b from-gray-100 via-white to-gray-350">
       <Navbar />
-      <div className="flex flex-row items-center justify-center gap-10 p-8 lg:p-20">
+      <div className="flex flex-row items-center justify-center gap-5 pxx-4 lg:px-20">
         {data && (
           <>
             <div className="flex-1 text-left max-w-prose">
-              <h1 className="text-2xl lg:text-3xl indent-16 font-serif text-gray-900 leading-relaxed">
+              <h1 className="text-2xl lg:text-3xl indent-16 font-serif text-gray-900 mt-5 leading-relaxed">
                 {data.about.split("\n").map((line, index) => (
-                  <p key={index} className="mb-2">
+                  <p key={index} className="mb-4">
                     {line}
                   </p>
                 ))}
