@@ -27,38 +27,40 @@ function NavBar() {
   }, []);
 
   return (
-    <nav className="bg-black-100 text-white px-4 flex items-center justify-between">
-      {data?.logo && (
-        <div className="flex items-center">
-          <img
-            src={data.logo.source}
-            alt="Logo"
-            height={data.logo.height}
-            width={data.logo.width}
-            className="rounded-full"
-          />
-        </div>
-      )}
-      <ul className="flex space-x-4">
-        {data?.sections.map((section, index) => (
-          <li key={index}>
-            {section.type === "link" ? (
-              <a
-                href={section.href}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-blue-400"
-              >
-                {section.title}
-              </a>
-            ) : (
-              <a href={section.href} className="hover:text-blue-400">
-                {section.title}
-              </a>
-            )}
-          </li>
-        ))}
-      </ul>
+    <nav className="bg-gradient-to-r from-gray-800 via-gray-900 to-black text-white px-6 py-4 shadow-md sticky top-0 z-50">
+      <div className="flex items-center justify-between">
+        {data?.logo && (
+          <div className="flex items-center">
+            <img
+              src={data.logo.source}
+              alt="Logo"
+              height={data.logo.height}
+              width={data.logo.width}
+              className="rounded-full shadow-lg"
+            />
+          </div>
+        )}
+        <ul className="flex space-x-6 text-lg">
+          {data?.sections.map((section, index) => (
+            <li key={index}>
+              {section.type === "link" ? (
+                <a
+                  href={section.href}
+                  target={section.type === "link" ? "_blank" : "_self"}
+                  rel="noopener noreferrer"
+                  className="hover:text-blue-400 transition-colors duration-300"
+                >
+                  {section.title}
+                </a>
+              ) : (
+                <a href={section.href} className="hover:text-blue-400">
+                  {section.title}
+                </a>
+              )}
+            </li>
+          ))}
+        </ul>
+      </div>
     </nav>
   );
 }

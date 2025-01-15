@@ -32,6 +32,19 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  font-family: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: var(--background-color);
+}
+
+#root {
+  max-width: 100%;
+  width: 100%; /* Ensure full width */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Full height for content */
 }
 
 h1 {

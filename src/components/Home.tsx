@@ -36,14 +36,14 @@ function Home() {
   }, [data])
 
   return (
-    <div className='min-h-screen bg-gray-100'>
+    <div className='min-h-screen bg-gradient-to-b from-gray-100 via-white to-gray-200"'>
       <Navbar />
-      <div className='flex flex-col items-center justify-center h-screen w-screen text-center'>
+      <div className='flex flex-col items-center justify-center h-screen w-screen text-center space-y-6'>
         {data && (
           <>
-          <h1 className='text-4x1 font-bold mb-4'>{data.name}</h1>
-          <h2 className='text-2x1'>
-            I am <span ref={typedElement} className='text-blue-500' />
+          <h1 className='text-4xl lg:text-5xl font-bold font-serif text-gray-900'>{data.name}</h1>
+          <h2 className='text-2xl lg:text-3xl font-light'>
+            I am <span ref={typedElement} className='text-blue-500 font-semibold' />
           </h2>
           </>
         )}
