@@ -50,7 +50,7 @@ function Skills() {
             {data.skills.map((skill, index) => (
               <motion.div
                 key={index}
-                className="bg-white shadow-md rounded-lg p-4"
+                className="bg-gray shadow-md rounded-lg p-4"
                 initial={{ y: 50, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ delay: index * 0.2, duration: 0.5 }}

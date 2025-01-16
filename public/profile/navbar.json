@@ -1,35 +1,32 @@
 {
-    "logo" : {
-        "source": "images/profile.jpeg",
-        "height" : 45,
-        "width" : 50
+  "logo": {
+    "source": "images/profile.jpeg",
+    "height": 45,
+    "width": 50,
+    "title": "Home",
+    "href": "/"
+  },
+  "sections": [
+    {
+      "title": "About",
+      "href": "/about"
     },
-    "sections": [
-        {
-            "title": "Home",
-            "href": "/"
-        },
-        {
-            "title": "About",
-            "href": "/about"
-        },
-        {
-            "title": "Skills",
-            "href": "/skills"
-        },
-        {
-            "title": "Education",
-            "href": "/education"
-        },
-        {
-            "title": "Projects",
-            "href": "/projects"
-        },
-        {
-            "title": "Resume",
-            "href": "https://docs.google.com/document/d/1k-hZcLlE5V2Bbpu8hGBk0xcf9o4bkiDGOxwp-FTXaqY/edit?tab=t.0",
-            "type": "link"
-        }
-    ]
-
+    {
+      "title": "Skills",
+      "href": "/skills"
+    },
+    {
+      "title": "Education",
+      "href": "/education"
+    },
+    {
+      "title": "Projects",
+      "href": "/projects"
+    },
+    {
+      "title": "Resume",
+      "href": "https://docs.google.com/document/d/1k-hZcLlE5V2Bbpu8hGBk0xcf9o4bkiDGOxwp-FTXaqY/edit?tab=t.0",
+      "type": "link"
+    }
+  ]
 }

@@ -74,6 +74,14 @@
             {
                 "icon" : "images/skills/typescript.png",
                 "title" : "TypeScript"
+            },
+            {
+                "icon" : "images/skills/graphql.svg",
+                "title" : "GraphQL"
+            },
+            {
+                "icon" : "images/skills/nextjs.svg",
+                "title" : "Next.js"
             }
          ]
     }
