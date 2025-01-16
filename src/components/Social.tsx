@@ -12,7 +12,6 @@ interface NetworkData {
 
 function Social() {
   const [data, setData] = useState<SocialData | null>(null);
-
   const iconMap: { [key: string]: string } = {
     linkedin: "/images/skills/linkedin.png",
     github: "/images/skills/github-original.svg",

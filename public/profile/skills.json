@@ -82,6 +82,10 @@
             {
                 "icon" : "images/skills/nextjs.svg",
                 "title" : "Next.js"
+            },
+            {
+                "icon" :"images/skills/tailwind-css.svg",
+                "title" : "TailWindCSS"
             }
          ]
     }

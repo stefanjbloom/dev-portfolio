@@ -22,7 +22,7 @@ function About() {
 
   return (
     <motion.div
-      className="min-h-screen bg-gradient-to-b from-gray-300 via-white to-gray-600"
+      className="min-h-screen bg-gradient-to-b from-gray-100 via-white to-gray-200"
       initial={{ opacity: 0, y: 50 }}
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -50 }}
@@ -33,7 +33,7 @@ function About() {
       <div className="flex flex-row items-center justify-center gap-5 pxx-4 lg:px-20">
         {data && (
           <>
-            <div className="flex-1 text-left max-w-prose">
+            <div className="flex-1 text-left max-w-5x1">
               <h1 className="text-2xl lg:text-3xl indent-16 font-serif text-gray-900 mt-5 leading-relaxed">
                 {data.about.split("\n").map((line, index) => (
                   <p key={index} className="mb-4">

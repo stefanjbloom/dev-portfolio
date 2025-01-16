@@ -6,14 +6,17 @@
             "cardSubtitle":"Denver, CO",
             "cardDetailedText": "Full-Stack Software Engineering Certification",
             "icon" : {
-                "src": "images/education/turingicon.png"
+                "src": "../images/education/turingicon.png"
             }
         },
         {
-            "title": "2006",
+            "title": "Class of 2006",
             "cardTitle": "High School",
             "cardSubtitle":"Gulliver Preparatory School, Miami, FL",
-            "cardDetailedText": "HS Diploma"
+            "cardDetailedText": "HS Diploma",
+            "icon" : {
+                "src": "../images/education/gulliver.png"
+            }
         }
     ]
 }
