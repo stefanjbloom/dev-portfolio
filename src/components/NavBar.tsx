@@ -1,5 +1,6 @@
 import endpoints from "../endpoints/endpoints";
 import { useState, useEffect } from "react";
+import { motion } from "motion/react";
 
 interface NavBarData {
   logo: {

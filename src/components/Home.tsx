@@ -2,6 +2,7 @@ import Navbar from  './NavBar';
 import endpoints from '../endpoints/endpoints';
 import { useState, useEffect, useRef} from 'react';
 import Typed from 'typed.js';
+import { motion } from 'motion/react';
 
 function Home() {
 
@@ -36,8 +37,13 @@ function Home() {
   }, [data])
 
   return (
-    <div className='min-h-screen bg-gradient-to-b from-gray-100 via-white to-gray-200"'>
-      <Navbar />
+    <motion.div
+      className="min-h-screen bg-gradient-to-b from-gray-300 via-white to-gray-600"
+      initial={{ opacity: 0, y: 50 }}
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0, y: -50 }}
+      transition={{ duration: 0.7, ease: 'easeInOut' }}
+    >      <Navbar />
       <div className='flex flex-col items-center justify-center h-screen w-screen text-center space-y-6'>
         {data && (
           <>
@@ -48,7 +54,7 @@ function Home() {
           </>
         )}
       </div>
-    </div>
+    </motion.div>
   )
 }
 export default Home
