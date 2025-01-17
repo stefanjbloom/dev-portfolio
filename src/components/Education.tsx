@@ -46,22 +46,22 @@ function Education() {
       <Navbar />
       {data && (
         <>
-          <div className="flex flex-wrap justify-center gap-8 mt-10 px-4 lg:px-20">
+          <div className="flex flex-wrap justify-center gap-8 mt-80 px-4 lg:px-20">
             {data.education.map((edu, index) => (
               <motion.div
                 key={index}
                 className="bg-gray shadow-md rounded-lg p-4"
                 initial={{ y: 50, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
-                transition={{ delay: index * 0.2, duration: 0.5 }}
+                transition={{ delay: index * 0.2, duration: 1.5 }}
               >
-                <h2 className="text-xl font-semibold text-gray-800 mb-4 text-center">
+                <h2 className="text-xl font-serif font-semibold text-gray-800 mb-4 text-center">
                   {edu.title}
                 </h2>
-                <h2 className="text-xl font-bold text-gray-800 mb-4 text-center">
+                <h2 className="text-xl font-bold font-serif text-gray-800 mb-4 text-center">
                   {edu.cardTitle}
                 </h2>
-                <h3 className="text-lg font-semibold text-gray-800 mb-4 text-center">
+                <h3 className="text-lg font-semibold font-serif text-gray-800 mb-4 text-center">
                   {edu.cardSubtitle}
                 </h3>
                 <p className="space-y-2">{edu.cardDetailedText}</p>

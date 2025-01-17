@@ -78,7 +78,7 @@ function NavBar() {
                   href={section.href}
                   target={section.type === "link" ? "_blank" : "_self"}
                   rel="noopener noreferrer"
-                  className="text-black font-bold hover:text-blue-400 transition-colors duration-300"
+                  className="text-black font-serif font-bold hover:text-blue-400 transition-colors duration-300"
                 >
                   {section.title}
                 </a>

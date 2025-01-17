@@ -3,11 +3,11 @@
         {
             "image" : "images/projects/portfoliohome.gif",
             "title": "Dev Portfolio",
-            "bodyText": "- Developer Portfolio Website made in React\n -  Fully customizable and dynamic, easily change data and images.\n - Dark Mode Support",
+            "bodyText": "- Developer Portfolio Website made in React w/ Tailwind and motion.dev\n -  Fully customizable and dynamic, easily change data and images. \n - Responsive Design",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/stefanjbloom/portfolio"
+                    "href": "https://github.com/stefanjbloom/dev-portfolio"
                 },
                 {
                     "text": "Live",
@@ -16,15 +16,16 @@
             ],
             "tags" : [
                 "React",
-                "Bootstrap CSS",
+                "Tailwind CSS",
                 "Portfolio",
-                "JavaScript"
+                "JavaScript",
+                "SquareSpace"
             ]
         },
         {
             "image" : "images/projects/DtRH.png",
             "title": "Down the Rabbit Hole",
-            "bodyText": "- Educational, full-stack webapp illustrating regional food chains\n -  5-person team to create a dynamic, informative and fun app\n - Responsive design including ARIA tags",
+            "bodyText": "- Educational, full-stack webapp illustrating regional food chains\n -  I was part of a 5-person team and responsible for db design, building and consuming the API calls, and full-stack unit and end-to-end testing  \n - Responsive design including ARIA tags",
             "links": [
                 {
                     "text": "GitHub FE",
@@ -45,7 +46,7 @@
                 "CSS",
                 "JavaScript",
                 "Ruby on Rails",
-                "TDD",
+                "RSpec",
                 "Heroku",
                 "Netlify"
             ]
@@ -70,11 +71,12 @@
             ],
             "tags" : [
                 "React",
+                "React Global Context",
                 "Cypress",
                 "JavaScript",
                 "Tailwind CSS",
                 "Ruby on Rails",
-                "TDD",
+                "RSpec",
                 "Ruby Gems",
                 "Heroku",
                 "Agile Workflow",
@@ -102,6 +104,7 @@
                 "CSS",
                 "Ruby on Rails",
                 "TDD",
+                "OOP",
                 "Github Projects"
             ]
         }
