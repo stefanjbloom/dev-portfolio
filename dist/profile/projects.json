@@ -1,0 +1,112 @@
+{
+    "projects" : [
+        {
+            "image" : "images/projects/portfoliohome.gif",
+            "title": "Dev Portfolio",
+            "bodyText": "Developer Portfolio Website made in React w/ Tailwind and motion.dev\n Fully customizable and dynamic, easily change data and images. \n Responsive Design",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/stefanjbloom/dev-portfolio"
+                },
+                {
+                    "text": "Live",
+                    "href": "https://stefanjshepard.dev/"
+                }
+            ],
+            "tags" : [
+                "React",
+                "Tailwind CSS",
+                "Portfolio",
+                "JavaScript",
+                "SquareSpace"
+            ]
+        },
+        {
+            "image" : "images/projects/DtRH.png",
+            "title": "Down the Rabbit Hole",
+            "bodyText": "Educational, full-stack webapp illustrating regional food chains\n I was part of a 5-person team and responsible for db design, building and consuming the API calls, and full-stack unit and end-to-end testing  \n Responsive design including ARIA tags",
+            "links": [
+                {
+                    "text": "GitHub FE",
+                    "href": "https://github.com/Down-the-Rabbit-Holes/down_the_rabbit_hole_FE"
+                },
+                {
+                    "text": "Github BE",
+                    "href": "https://github.com/Down-the-Rabbit-Holes/down_the_rabbit_hole_BE"
+                },
+                {
+                    "text": "Live",
+                    "href": "https://down-the-rabbit-hole.netlify.app/"
+                }
+            ],
+            "tags" : [
+                "React",
+                "Cypress",
+                "CSS",
+                "JavaScript",
+                "Ruby on Rails",
+                "RSpec",
+                "Heroku",
+                "Netlify"
+            ]
+        },
+        {
+            "image" : "images/projects/trackergif.gif",
+            "title": "Tracker by Turing",
+            "bodyText": "Capstone Project for Turing Cohort 2407 (work in progress)\nFull-Stack job seeker webapp integrating agile CI/CD\nI handled BE user authentication and authorization implementation, as well as React component design and functionality",
+            "links": [
+                {
+                    "text": "GitHub FE",
+                    "href": "https://github.com/turingschool/tracker-crm-fe"
+                },
+                {
+                    "text": "Github BE",
+                    "href": "https://github.com/turingschool/tracker-crm"
+                },
+                {
+                    "text": "Live",
+                    "href": "https://tracker-crm-fe-38f7cf1aaca5.herokuapp.com/"
+                }
+            ],
+            "tags" : [
+                "React",
+                "React Global Context",
+                "Cypress",
+                "JavaScript",
+                "Tailwind CSS",
+                "Ruby on Rails",
+                "RSpec",
+                "Ruby Gems",
+                "Heroku",
+                "Agile Workflow",
+                "CI Pipeline",
+                "Github Projects"
+            ]
+        },     
+        {
+            "image" : "images/projects/plea4tea.jpeg",
+            "title": "A Plea for Tea",
+            "bodyText": "Technical Challenge Assignment at Turing\nFull-Stack tea admin portal for managing online tea SaaS\nSuccessfully built a full-stack webapp in 16 hours as a take home challenge",
+            "links": [
+                {
+                    "text": "GitHub FE",
+                    "href": "https://github.com/stefanjbloom/a-plea-for-tea-fe"
+                },
+                {
+                    "text": "Github BE",
+                    "href": "https://github.com/stefanjbloom/a-plea-for-tea-BE"
+                }
+            ],
+            "tags" : [
+                "React",
+                "JavaScript",
+                "CSS",
+                "Ruby on Rails",
+                "TDD",
+                "OOP",
+                "Github Projects"
+            ]
+        }
+    ]
+}

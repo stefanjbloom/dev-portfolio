@@ -1,0 +1,22 @@
+{
+    "education":[
+        {
+            "title": "Jun 2024 - Jan 2025",
+            "cardTitle": "Turing School of Software & Design",
+            "cardSubtitle":"Denver, CO",
+            "cardDetailedText": "Full-Stack Software Engineering Certification",
+            "icon" : {
+                "src": "../images/education/turingicon.png"
+            }
+        },
+        {
+            "title": "Class of 2006",
+            "cardTitle": "High School",
+            "cardSubtitle":"Gulliver Preparatory School, Miami, FL",
+            "cardDetailedText": "HS Diploma",
+            "icon" : {
+                "src": "../images/education/gulliver.png"
+            }
+        }
+    ]
+}

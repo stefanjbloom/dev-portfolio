@@ -1,0 +1,92 @@
+{
+    "intro": "I love to learn new things and experiment with new technologies.\nThese are some of the major languages, technologies, tools and platforms I have worked with and am learning:",
+    "skills": [{
+     
+            "title": "Languages & Databases",
+            "items" : [
+
+                {
+                    "icon": "images/skills/ruby-original.svg",
+                    "title": "Ruby"
+                },
+                {
+                    "icon": "images/skills/js.png",
+                    "title": "JavaScript"
+                },
+                {
+                    "icon": "images/skills/html.png",
+                    "title": "HTML"
+                },
+                {
+                    "icon": "images/skills/css.png",
+                    "title": "CSS"
+                },
+                {
+                    "icon": "images/skills/postgresql-original.svg",
+                    "title": "PostgreSql"
+                }
+        ]},
+        {
+            "title": "Frameworks & Technologies",
+            "items" : [
+                {
+                    "icon": "images/skills/rails-plain.svg",
+                    "title": "Ruby on Rails"
+                },
+                {
+                    "icon": "images/skills/react.png",
+                    "title": "React"
+                }
+            ]
+        },
+        {
+            "title" : "Tools & Platforms",
+            "items": [
+
+                {
+                    "icon": "images/skills/git.png",
+                    "title": "Git"
+                },
+                {
+                    "icon": "images/skills/github-original.svg",
+                    "title": "GitHub"
+                },
+                {
+                    "icon": "images/skills/docker.png",
+                    "title": "Docker"
+                },
+                {
+                    "icon": "images/skills/postman-original.svg",
+                    "title": "Postman"
+                },
+                {
+                    "icon": "images/skills/heroku-original.svg",
+                    "title": "Heroku"
+                },
+                {
+                    "icon": "images/skills/npm-original-wordmark.svg",
+                    "title": "npm"
+                }
+            ]
+    },
+    {    "title" : "Currently Learning",
+         "items" : [
+            {
+                "icon" : "images/skills/typescript.png",
+                "title" : "TypeScript"
+            },
+            {
+                "icon" : "images/skills/graphql.svg",
+                "title" : "GraphQL"
+            },
+            {
+                "icon" : "images/skills/nextjs.svg",
+                "title" : "Next.js"
+            },
+            {
+                "icon" :"images/skills/tailwind-css.svg",
+                "title" : "TailWindCSS"
+            }
+         ]
+    }
+]}
