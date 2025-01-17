@@ -3,7 +3,7 @@
         {
             "image" : "images/projects/portfoliohome.gif",
             "title": "Dev Portfolio",
-            "bodyText": "- Developer Portfolio Website made in React w/ Tailwind and motion.dev\n -  Fully customizable and dynamic, easily change data and images. \n - Responsive Design",
+            "bodyText": "Developer Portfolio Website made in React w/ Tailwind and motion.dev\n Fully customizable and dynamic, easily change data and images. \n Responsive Design",
             "links": [
                 {
                     "text": "GitHub",
@@ -25,7 +25,7 @@
         {
             "image" : "images/projects/DtRH.png",
             "title": "Down the Rabbit Hole",
-            "bodyText": "- Educational, full-stack webapp illustrating regional food chains\n -  I was part of a 5-person team and responsible for db design, building and consuming the API calls, and full-stack unit and end-to-end testing  \n - Responsive design including ARIA tags",
+            "bodyText": "Educational, full-stack webapp illustrating regional food chains\n I was part of a 5-person team and responsible for db design, building and consuming the API calls, and full-stack unit and end-to-end testing  \n Responsive design including ARIA tags",
             "links": [
                 {
                     "text": "GitHub FE",
@@ -54,7 +54,7 @@
         {
             "image" : "images/projects/trackergif.gif",
             "title": "Tracker by Turing",
-            "bodyText": "- Capstone Project for Turing Cohort 2407 (work in progress)\n - Full-Stack job seeker webapp integrating agile CI/CD\n - I handled BE user authentication and authorization implementation, as well as React component design and functionality",
+            "bodyText": "Capstone Project for Turing Cohort 2407 (work in progress)\nFull-Stack job seeker webapp integrating agile CI/CD\nI handled BE user authentication and authorization implementation, as well as React component design and functionality",
             "links": [
                 {
                     "text": "GitHub FE",
@@ -87,7 +87,7 @@
         {
             "image" : "images/projects/plea4tea.jpeg",
             "title": "A Plea for Tea",
-            "bodyText": "- Technical Challenge Assignment at Turing\n - Full-Stack tea admin portal for managing online tea SaaS\n - Successfully built a full-stack webapp in 16 hours as a take home challenge",
+            "bodyText": "Technical Challenge Assignment at Turing\nFull-Stack tea admin portal for managing online tea SaaS\nSuccessfully built a full-stack webapp in 16 hours as a take home challenge",
             "links": [
                 {
                     "text": "GitHub FE",

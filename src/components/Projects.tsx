@@ -22,7 +22,6 @@ interface LinkData {
 
 function Projects() {
   const [data, setData] = useState<AllProjects | null>(null);
-  const [linkMap, setLinkMap] = useState<{ [key: string]: string }>({});
 
   useEffect(() => {
     fetch(endpoints.projects, {
@@ -31,13 +30,6 @@ function Projects() {
       .then((res) => res.json())
       .then((res: AllProjects) => {
         setData(res);
-        const fetchLinkMap: { [key: string]: string } = {};
-        res.projects.forEach((project) => {
-          project.links.forEach((link) => {
-            fetchLinkMap[`${project.title} - ${link.text}`] = link.href;
-          });
-        });
-        setLinkMap(fetchLinkMap);
       })
       .catch((err) => console.error("Error Fetching Project Data: ", err));
   }, []);
