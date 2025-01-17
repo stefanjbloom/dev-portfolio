@@ -1,6 +1,7 @@
 import Navbar from "./NavBar";
 import endpoints from "../endpoints/endpoints";
 import { useState, useEffect } from "react";
+import { motion } from "motion/react";
 
 interface SkillItems {
   title: string;
@@ -30,7 +31,13 @@ function Skills() {
   }, []);
 
   return (
-    <div className="min-h-screen min-w-screen bg-gradient-to-b from-gray-100 via-white to-gray-350">
+    <motion.div
+      className="min-h-screen bg-gradient-to-b from-gray-300 via-white to-gray-600"
+      initial={{ opacity: 0, y: 50 }}
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0, y: -50 }}
+      transition={{ duration: 1.7, ease: "easeInOut" }}
+    >
       <Navbar />
       {data && (
         <>
@@ -41,7 +48,13 @@ function Skills() {
           </header>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-10 px-4 lg:px-20">
             {data.skills.map((skill, index) => (
-              <div key={index} className="bg-white shadow-md rounded-lg p-4">
+              <motion.div
+                key={index}
+                className="bg-gray shadow-md rounded-lg p-4"
+                initial={{ y: 50, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ delay: index * 0.2, duration: 0.5 }}
+              >
                 <h2 className="text-xl font-semibold text-gray-800 mb-4 text-center">
                   {skill.title}
                 </h2>
@@ -53,16 +66,18 @@ function Skills() {
                         alt={item.title}
                         className="w-8 h-8 object-contain"
                       />
-                      <span className="text-gray-700 font-serif">{item.title}</span>
+                      <span className="text-gray-700 font-serif">
+                        {item.title}
+                      </span>
                     </li>
                   ))}
                 </ul>
-              </div>
+              </motion.div>
             ))}
           </div>
         </>
       )}
-    </div>
+    </motion.div>
   );
 }
 export default Skills;
