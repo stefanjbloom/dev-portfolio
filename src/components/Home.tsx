@@ -48,13 +48,13 @@ function Home() {
     >
       {" "}
       <Navbar />
-      <div className="flex flex-col items-center justify-center h-screen w-screen text-center space-y-6">
+      <div className="flex flex-col items-center justify-center h-screen px-6 text-center space-y-6">
         {data && (
           <>
-            <h1 className="text-4xl lg:text-5xl font-bold font-serif text-gray-900">
+            <h1 className="text-4xl sm:text-5x1 lg:text-6xl font-bold font-serif text-gray-900">
               {data.name}
             </h1>
-            <h2 className="text-2xl lg:text-3xl font-light">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-light">
               I am{" "}
               <span
                 ref={typedElement}
@@ -63,7 +63,9 @@ function Home() {
             </h2>
           </>
         )}
-      <Social />
+        <div className="mt-8">
+          <Social />
+        </div>
       </div>
     </motion.div>
   );

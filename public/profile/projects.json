@@ -3,7 +3,7 @@
         {
             "image" : "images/projects/portfoliohome.gif",
             "title": "Dev Portfolio",
-            "bodyText": "Developer Portfolio Website made in React w/ Tailwind and motion.dev\n Fully customizable and dynamic, easily change data and images. \n Responsive Design",
+            "bodyText": "Developer Portfolio Website made in React w/ Tailwind and motion.dev\n Fully customizable and dynamic, easily change data and images by altering fetched .json files. \n Responsive & Mobile-Friendly Design",
             "links": [
                 {
                     "text": "GitHub",

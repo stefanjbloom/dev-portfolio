@@ -46,7 +46,7 @@ function Education() {
       <Navbar />
       {data && (
         <>
-          <div className="flex flex-wrap justify-center gap-8 mt-80 px-4 lg:px-20">
+          <div className="flex flex-wrap justify-center gap-8 mt-28 px-4 lg:px-20">
             {data.education.map((edu, index) => (
               <motion.div
                 key={index}

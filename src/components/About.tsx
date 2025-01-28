@@ -29,20 +29,20 @@ function About() {
       transition={{ duration: 1.7, ease: "easeInOut" }}
     >
       <Navbar />
-      <div className="flex flex-col lg:flex-row items-center justify-center gap-10 px-4 lg:px-20">
+      <div className="flex flex-col lg:flex-row items-center justify-center gap-10 px-4 lg:px-20 py-10">
         {data && (
           <>
-            <div className="flex-1 text-left max-w-2x1">
-              <h1 className="text-2xl lg:text-3xl indent-16 font-serif text-gray-900 mt-5 leading-relaxed">
+            <div className="flex-1 text-left">
+              <h1 className="text-base sm:text-lg lg:text-xl indent-8 font-serif text-gray-900 leading-relaxed">
                 {data.about.split("\n").map((line, index) => (
-                  <p key={index} className="mb-8">
+                  <p key={index} className="mb-4">
                     {line}
                   </p>
                 ))}
               </h1>
               <div className="flex-1 flex justify-center">
                 <img
-                  className="object-cover w-64 h-64 lg:w-80 lg:h-80 rounded-full shadow-lg"
+                  className="object-cover w-32 h-32 sm:w-48 sm:h-48 lg:w-80 lg:h-80 rounded-full shadow-lg"
                   src={data.imageSource}
                   alt="SJShepPic"
                 />

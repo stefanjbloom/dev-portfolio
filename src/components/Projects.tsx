@@ -44,39 +44,41 @@ function Projects() {
     >
       <Navbar />
       {data && (
-        <>
-          <div className="flex flex-row flex-wrap justify-center gap-8 mt-10 px-4 lg:px-20">
+        <div className="container mx-auto px-4 py-10">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {data.projects.map((project, index) => (
               <motion.div
                 key={index}
-                className="bg-gray shadow-md rounded-lg p-4"
+                className="bg-white shadow-md rounded-lg p-4 flex flex-col items-center"
                 initial={{ y: 50, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ delay: index * 0.2, duration: 0.5 }}
               >
-                <h2 className="text-3xl font-serif font-bold text-gray-800 mb-4 text-center">
+                <h2 className="text-xl sm:text-2xl font-serif font-bold text-gray-800 mb-4 text-center">
                   {project.title}
                 </h2>
                 <div className="flex justify-center">
                   <img
                     src={project.image}
                     alt={project.title}
-                    className="mt-2 max-w-screen-md h-auto"
+                    className="w-full max-w-sm h-auto rounded-md shadow-sm mb-4"
                   />
                 </div>
-                <ul className="text-xl font-serif font-semibold text-gray-800 mx-4 my-4 text-center list-disc list-inside">
+                <ul className="text-sm sm:text-base font-serif text-gray-700 mb-4 list-disc list-inside">
                   {project.bodyText.split("\n").map((text, index) => (
                     <li key={index} className="mb-2">
                       {text}
                     </li>
                   ))}
                 </ul>
-                <div className="flex flex-wrap justify-center gap-4 mb-4">
+                <div className="flex flex-wrap justify-center gap-3 mb-4">
                   {project.links.map((link, index) => (
                     <a
                       key={index}
                       href={link.href}
-                      className="bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 transition duration-300"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="bg-blue-500 text-white text-sm sm:text-base py-2 px-4 rounded-md hover:bg-blue-600 transition duration-300"
                     >
                       {link.text}
                     </a>
@@ -85,7 +87,7 @@ function Projects() {
                 <div className="flex flex-wrap justify-center gap-4">
                   {project.tags.map((tag, index) => (
                     <p
-                      className="font-serif text-blue-500 hover:bold"
+                      className="text-xs sm:text-sm font-serif text-blue-600 bg-blue-100 px-2 py-1 rounded-full"
                       key={index}
                     >
                       {tag}
@@ -95,7 +97,7 @@ function Projects() {
               </motion.div>
             ))}
           </div>
-        </>
+        </div>
       )}
     </motion.div>
   );
